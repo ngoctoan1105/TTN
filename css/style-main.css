@@ -40,9 +40,11 @@ header ul li a:hover {
 
 /* Banner */
 .img {
+  width: 100%;
   height: 290px;
 }
 .img1 {
+  width: 100%;
   height: 145px;
 }
 
