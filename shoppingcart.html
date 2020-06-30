@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS here -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style-main.css" />
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<header>
+    <div class="container-fluid" style="padding:20px;">
+        <div class="row justify-content-end ">
+            <div class="col-xl-2">
+                <div class="logo">
+                    <a href="index.html">Thegioididong.com</a>
+                </div>
+            </div>
+
+            <div class="col-xl-5 col-lg-8 col-md-9 col-sm-5 my-col">
+
+                <div class="input-group">
+                    <input style="width: 280px;" type="email" class="form-control" placeholder="Bạn tìm gì ...">
+                    <span class="input-group-prepend">
+                        <button type="submit" class="btn btn-dark"><i class="fa fa-search"
+                                aria-hidden="true"></i></button>
+                    </span>
+                </div>
+            </div>
+            <!----->
+            <div class="col-xl-5 align-self-center my-col">
+                <div class="login">
+                    <a href="login.html">ĐĂNG NHẬP</a>
+                </div>
+                &nbsp;&nbsp;&nbsp;
+                <div class="cart">
+                    <a href="shoppingcart.html" class="btn btn-dark">
+
+                        <span><i class="fas fa-shopping-cart"></i></span>
+                        <span>Giỏ hàng</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+</header>
+<!---End header-->
+
+
+
+<div class="form-cart-big">
+    <div class="container form-cart-small">
+        <div class="text-right">
+            <a href="#" style="font-size: 20px ; color:black;  text-decoration: none;">
+                <strong>X</strong>
+            </a>
+        </div>
+        <div class="card-body text-center">
+            <div class="clearfix">
+                <h3 class="float-left">GIỎ HÀNG CỦA BẠN</h3>
+                <a href="" class="float-right" style="font-size: 20px;  text-decoration: none;">Mua
+                    thêm sản phẩm khác</a>
+            </div>
+            <br>
+            <br>
+            <!--Product-->
+            <div class="row">
+                <div class="col-2 text-center">
+                    <img class="img-responsive img-thumbnail" src="" style="border: 1px solid #928C8C;">
+                </div>
+                <div class="col-3">
+                    <h4 class="product-name"><strong>Oppo</strong></h4>
+                </div>
+                <div class="col-7 text-md-right row">
+                    <div class="col-3 col-sm-3 col-md-6 text-md-right" style="padding-top: 5px">
+                        <h5><strong>5000000</strong></h5>
+                    </div>
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col-4">
+                                <form action="" method="post">
+                                    <input type="hidden" name="operator" value="0">
+                                    <button type="submit" style="width:40px; height:40px">-</button>
+                                </form>
+                            </div>
+                            <div class="col-4">
+                                <h4>
+                                    1
+                                </h4>
+                            </div>
+                            <div class="col-4">
+                                <form method="POST">
+                                    <input type="hidden" name="operator" value="1">
+                                    <button type="submit" style="width:40px; height:40px">+</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 text-right">
+                        <form method="post">
+                            <button type="submit" class="btn btn-outline-danger btn-xs"> <i
+                                    class="fas fa-times"></i></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="clearfix">
+                <div class="float-right">Tổng tiền: <b>5000000</b></div>
+            </div>
+            <hr>
+            <div class="clearfix">
+                <h3 class="float-left">THÔNG TIN KHÁCH HÀNG</h3>
+            </div>
+            <br>
+            <form method="post">
+                <div class="form-group row">
+                    <label for="name" class="col-sm-2 col-form-label  text-left">Họ và tên</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="name" placeholder="Nhập họ và tên">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="phone" class="col-sm-2 col-form-label  text-left">Số điện thoại</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="phone" placeholder="Nhập số điện thoại">
+                    </div>
+                </div>
+                <div class="form-group row ">
+                    <label for="address" class="col-sm-2 col-form-label  text-left">Địa chỉ</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="address" placeholder="Nhập địa chỉ nhận hàng">
+                    </div>
+                </div>
+                <a href="checkout.html" class="btn btn-outline-success">THANH TOÁN</a>
+            </form>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<!---Footer-->
+
+<footer>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <label class="font-weight-bold">Đăng ký nhận tin khuyến mãi</label>
+                <br>
+                <form action="" class="form-inline">
+                    <div class="input-group">
+                        <input style="width: 280px;" type="email" class="form-control"
+                            placeholder="Nhập địa chỉ email ...">
+                        <span class="input-group-prepend">
+                            <button type="submit" class="btn btn-primary">Gửi</button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <div class="col-4"></div>
+        </div>
+        <br>
+        <div id="footer-icon">
+            <div class="text-center">
+                <a href="#"> <i id="social-fb" class="fab fa-facebook-f social"></i></a>
+                <a href="#"><i id="social-tw" class="fab fa-twitter  social"></i> </a></a>
+                <a href="#"><i id="social-yt" class="fab fa-youtube  social"></i></a>
+                <a href="#"><i id="social-in" class="fab fa-instagram  social"></i></class=></a>
+            </div>
+        </div>
+    </div>
+    <br>
+</footer>
+<br>
+</body>
+</html>
